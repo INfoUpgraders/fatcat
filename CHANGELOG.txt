@@ -61,4 +61,4 @@ Change Log
 0.0.7.1 (9/2/2020)
 ----------------
 - Changed `reqeusts>=2.20.0`
-- Fixed being installed on others computers (hopefully)
+- Fixed being installed on others computers
