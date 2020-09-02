@@ -1,13 +1,14 @@
 Metadata-Version: 2.1
 Name: fatcat
-Version: 0.0.7
+Version: 0.0.7.1
 Summary: A python package for FatCat Hosting
 Home-page: https://github.com/INfoUpgraders/fatcat
 Author: INfoUpgraders
 License: MIT
 Project-URL: Documentation, https://fatcat.readthedocs.io/en/latest/
 Project-URL: Issue tracker, https://github.com/INfoUpgraders/fatcat/issues
-Description: # fatcat
+Description: 
+        # fatcat
         ![https://discord.gg/74VkcwV](https://discord.com/api/guilds/712539689638428713/embed.png) ![https://pypi.python.org/pypi/fatcat]( https://img.shields.io/pypi/v/fatcat.svg) ![https://pypi.python.org/pypi/discord.py](https://img.shields.io/pypi/pyversions/fatcat.svg)
         
         A package written in Python to manage your servers, pterodactyl servers, and more for FatCat Hosting.
@@ -56,12 +57,14 @@ Description: # fatcat
         ```
         
         ## Links
-        - [Documentation]()
+        - [Documentation](https://fatcat.readthedocs.io/en/latest/)
         - [Official Discord Server](https://discord.gg/74VkcwV)
+        - [PyPi](https://pypi.org/project/fatcat/)
         
         ## Contact & Support
         - You can contact me on Discord at `INfoUpgraders#0001`
         - [Official Support Server](https://discord.gg/Uebz9GX)
+        
         
 Platform: UNKNOWN
 Classifier: Development Status :: 5 - Production/Stable
