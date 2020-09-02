@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+fatcat/__init__.py
+fatcat.egg-info/PKG-INFO
+fatcat.egg-info/SOURCES.txt
+fatcat.egg-info/dependency_links.txt
+fatcat.egg-info/requires.txt
+fatcat.egg-info/top_level.txt

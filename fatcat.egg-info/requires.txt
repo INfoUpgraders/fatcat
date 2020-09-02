@@ -1,0 +1,6 @@
+requests>=2.21.0
+
+[docs]
+sphinx==1.8.5
+sphinxcontrib_trio==1.1.1
+sphinxcontrib-websupport
