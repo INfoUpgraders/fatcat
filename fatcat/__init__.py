@@ -23,7 +23,6 @@ class Server:
             return total_memory
         else:
             raise Exception("text or plain type is not supported.")
-
         # total_memory = float(round(int(data['MemTotal'])/1e+6, 2))
 
     def free_memory(self):
@@ -43,6 +42,7 @@ class Server:
             return total_memory
         else:
             raise Exception("text or plain type is not supported.")
+        # total_memory = float(round(int(data['MemFree'])/1e+6, 2))
 
     def available_memory(self):
         try:
