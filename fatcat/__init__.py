@@ -27,13 +27,22 @@ class Server:
         # total_memory = float(round(int(data['MemTotal'])/1e+6, 2))
 
     def free_memory(self):
-        try:
-            response = requests.get(self.url + "meminfo")
-            data = response.json()['data']
+        response = requests.get(self.url + "meminfo")
+        data = response.json()['data']
+        if self.text == True and self.plain == False:
+            total_memory = f"{round(int(data['MemFree'])/1e+6, 2)} GB"
+            return total_memory
+        elif self.text == True and self.plain == True:
+            total_memory = f"{data['MemFree']} KB"
+            return total_memory
+        elif self.text == False and self.plain == True:
+            total_memory = int(data['MemFree'])
+            return total_memory
+        elif self.text == False and self.plain == False:
             total_memory = float(round(int(data['MemFree'])/1e+6, 2))
             return total_memory
-        except:
-            return "-"
+        else:
+            raise Exception("text or plain type is not supported.")
 
     def available_memory(self):
         try:
