@@ -1,4 +1,4 @@
-fatcat
+fatcat (Python)
 ======
 
 |Official Discord| |Official PyPi| |Python Versions|
@@ -78,3 +78,9 @@ Contact & Support
    :target: https://pypi.python.org/pypi/fatcat
 .. |Python Versions| image:: https://img.shields.io/pypi/pyversions/fatcat.svg
    :target: https://pypi.python.org/pypi/fatcat
+
+nodejs-fatcat (JavaScript)
+======
+
+Coming Soon
+-----------
